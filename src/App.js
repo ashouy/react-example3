@@ -13,6 +13,10 @@ function App() {
       <main>
         {!ctx.isLoggedIn && <Login />}
         {ctx.isLoggedIn && <Home />}
+        <p style={{ maxWidth: "40rem", margin: "2rem auto" }}>
+          this example shows how we can use the following features: useReducer,
+          useEffect, useImperativeHandle, useContext and more
+        </p>
       </main>
     </Fragment>
   );

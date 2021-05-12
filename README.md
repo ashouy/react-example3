@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About
+
+This example show how we can use the useContext hook to access values with far away from source components. We also learn how to manage state with the useReducer and handle side effects with useEffect. Additionally we learn how we can imperatively handle components functionalities and state with the useImperativeHandle hook to add focus on email input and password input.
+
+![react_example_3](https://media.giphy.com/media/MZ0eOLGqglLHIoWrPw/giphy.gif)
 ## Available Scripts
 
 In the project directory, you can run:
